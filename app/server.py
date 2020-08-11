@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1Mc8QgOLQUG_VmcIc0AqCY9DqyKlGJmQb'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1Mc8QgOLQUG_VmcIc0AqCY9DqyKlGJmQb?alt=media&key=AIzaSyC2V8rUN1xO2c6PwdWN2pWPblYDipiWR9Q'
 export_file_name = 'export.pkl'
 
 classes = ['curly_hair', 'straight_hair']
