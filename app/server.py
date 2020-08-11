@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://drive.google.com/file/d/1Mc8QgOLQUG_VmcIc0AqCY9DqyKlGJmQb/view?usp=sharing'
 export_file_name = 'export.pkl'
 
-classes = ['Curly Hair', 'Straight Hair]
+classes = ['Curly Hair', 'Straight Hair']
 path = Path(__file__).parent
 
 app = Starlette()
