@@ -10,9 +10,9 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 export_file_url = 'https://www.googleapis.com/drive/v3/files/1AR1VE7s2zRKj6NxebM2EgAmaX5S_AKQv?alt=media&key=AIzaSyBflEo-dS1M1xY3azumHEYskTDVNyLvNE8'
-export_file_name = 'zz'
+export_file_name = 'zz.pkl'
 
-classes = ['curly_hair', 'straight_hair', 'wavy_hair]
+classes = ['curly_hair', 'straight_hair', 'wavy_hair']
 path = Path(__file__).parent
 
 app = Starlette()
