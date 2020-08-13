@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.googleapis.com/drive/v3/files/1--wbKnFjBqVKDeYmlDiVG1Xsh2TT0_ex?alt=media&key=AIzaSyBflEo-dS1M1xY3azumHEYskTDVNyLvNE8'
-export_file_name = 'saajna.pkl'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1-EAk3uhn5epgsHkxF5cbRk5c_kQ6O6_Z?alt=media&key=AIzaSyANRVcXW-1P7XEa4kFpWOWshj8KhHI3iT0'
+export_file_name = 'doink.pkl'
 
 classes = ['curly_hair', 'straight_hair', 'wavy_hair']
 path = Path(__file__).parent
